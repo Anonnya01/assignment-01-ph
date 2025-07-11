@@ -1,3 +1,11 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+body {
+  background-image: linear-gradient(#ffffff);
+}
 .raleway-font-1 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -11,6 +19,11 @@
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
+}
+.btn-primary:hover {
+  background-color: #4e47ff;
+  color: #252432;
+  border: 2px solid #252432;
 }
 
 /* Header styels */
@@ -31,16 +44,140 @@ header {
   font-size: 34px;
 }
 
-.header-content{
-  
-   text-align: center;
-   margin: 152px 265px;
-   padding-bottom: 200px;
+.header-content {
+  text-align: center;
+  margin: 152px 265px;
+  padding-bottom: 200px;
 }
 
-.header-title{
-    font-weight: bold;
-    font-size: 65px;
-    align-items: center;
-    column-gap: 34px;
+.header-title {
+  font-weight: bold;
+  font-size: 65px;
+  align-items: center;
+  column-gap: 34px;
+  margin-bottom: 37px;
 }
+
+/* main-action-section */
+.action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: auto;
+  margin: auto;
+}
+
+.action-content h1 {
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.action-content p {
+  color: rgba(37, 36, 50, 0.5);
+  font-weight: lighter;
+  font-size: 24px;
+  margin: 23px 0;
+}
+.action-img img {
+  border-radius: 48px;
+}
+
+/* data style*/
+.data {
+  background-color: rgba(78, 71, 255, 0.1);
+  text-align: center;
+  align-items: center;
+  margin: 116px auto;
+  height: 360px;
+  width: 1440px;
+  border-radius: 24px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.data-title {
+  padding: 50px 80px;
+  font-weight: bold;
+  font-size: 38px;
+  color: #252432;
+}
+.number {
+  color: #4e47ff;
+  font-weight: bold;
+  font-size: 80px;
+}
+.status {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+/* user profile */
+.user-title{
+  text-align:center;
+  font-size:42px ;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.user-container {
+  padding: 24px;
+  gap: 20px;
+  display: flex;
+  justify-content:center;
+}
+ .user-content{
+ box-shadow: 0px 8px 50px 0px rgba(0, 0, 0, 0.09);
+ padding: 24px 24px;
+ border-radius: 14px;
+ gap: 25px;
+ width:370px;
+ 
+ }
+.user-title-minor{
+
+  align-items: start;
+  padding-top: 24px;
+  padding-bottom: 24px;
+ }
+ 
+ .users-comment{
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+ }
+ 
+.user-profile {
+  display: flex;
+  gap: 5px;
+}
+.user-profile h5 {
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-profile h6 {
+  color: rgba(0, 0, 0, 0.3); ;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  
+}
+/* form */
+.info{
+  display:flex;
+  align-items: center;
+  gap: auto;
+  padding-top: 71px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+  justify-content: space-around;
+
+}
+ .info h1{
+  padding: 200px 0;
+  font-size: 97px;
+  font-weight: bold;
+ }
