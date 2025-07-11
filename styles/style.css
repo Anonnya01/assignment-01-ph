@@ -6,7 +6,6 @@
 body {
   min-height: 100vh;
   background-image: linear-gradient(#f6f6fb, #cce4f7);
-
 }
 .raleway-font-1 {
   font-family: "Raleway", sans-serif;
@@ -95,7 +94,7 @@ header {
 
 /* data style*/
 .data {
-   background-color: rgba(78, 71, 255, 0.1);
+  background-color: rgba(78, 71, 255, 0.1);
   text-align: center;
   align-items: center;
   margin: 116px auto;
@@ -176,33 +175,32 @@ header {
 
 /* bonus */
 
-.bonus{
+.bonus {
   margin-top: 137px;
   background-color: #f6f6fb;
   margin-left: 151px;
   margin-right: 141px;
   margin-bottom: 100px;
   margin-bottom: 97px;
-   box-shadow: 0px 8px 50px 0px rgba(0, 0, 0, 0.09);
-   border-radius: 14px;
+  box-shadow: 0px 8px 50px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 14px;
 }
-.bonus-container{
+.bonus-container {
   justify-content: center;
   text-align: center;
 }
-.bonus-container h1{
-  font-size:50px ;
+.bonus-container h1 {
+  font-size: 50px;
   font-weight: bold;
   padding-top: 71px;
   padding-bottom: 20px;
-
 }
-.bonus-container p{
+.bonus-container p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 16;
   padding-bottom: 20px;
 }
-.bonus-container img{
+.bonus-container img {
   width: 840px;
   height: 364.77px;
   border-radius: 48px;
