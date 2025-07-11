@@ -6,6 +6,7 @@
 body {
   min-height: 100vh;
   background-image: linear-gradient(#f6f6fb, #cce4f7);
+
 }
 .raleway-font-1 {
   font-family: "Raleway", sans-serif;
@@ -94,7 +95,7 @@ header {
 
 /* data style*/
 .data {
-  background-color: rgba(78, 71, 255, 0.1);
+   background-color: rgba(78, 71, 255, 0.1);
   text-align: center;
   align-items: center;
   margin: 116px auto;
@@ -106,6 +107,7 @@ header {
 .data-container {
   display: flex;
   justify-content: space-evenly;
+  /* margin: 0 151px 0 141px; */
 }
 .data-title {
   padding: 50px 80px;
